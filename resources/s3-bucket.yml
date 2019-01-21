@@ -5,11 +5,11 @@ Resources:
       # Set the CORS policy
       CorsConfiguration:
         CorsRules:
-          - AllowOrigins:
+          - AllowedOrigins:
               - '*'
-            AllowHeaders:
+            AllowedHeaders:
               - '*'
-            AllowMethods:
+            AllowedMethods:
               - GET
               - PUT
               - POST
